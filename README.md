@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 100 Rejections
 
-## Getting Started
+## About
 
-First, run the development server:
+### What is **100 Rejections**?
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Track how many companies have rejected you on the job search by turning the stars on the site yellow.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The hope is that getting those 100 stars will motivate you to apply and interview for many more jobs than you would have otherwise. And though you’re racking up rejections, every 'no' leads you closer to that one 'yes'.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+It is our hope that you won’t ever get 100 stars; you’ll have found a job first.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### How it works
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Once you’ve gotten an official rejection from a job that you’re interviewing with, click on a star to make it yellow.
 
-## Learn More
+_1 yellow star = 1 rejection_
 
-To learn more about Next.js, take a look at the following resources:
+If you hover over a star, you can add any notes you have about the interview process, or really whatever you want. You can find all the company notes in the _Notes_ page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+And that’s it! Now go get interviewing!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Background
 
-## Deploy on Vercel
+This project was created after [Rufio](https://github.com/helloitsrufio) had a conversation with [Rachel Schipull](https://github.com/rachelschipull). Rufio had been rejected by over 15 companies/recruiters at that time and job searching for over eight months.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+"Why don't you make a 100 Rejections app? So like you'd have stars and you could check them off once you got a rejection." Rachel said (from what Rufio rememebers, that is).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+And thus this app was created.
+
+## Details of Application
+
+### Pages
+
+The user will be able to login and access the other pages via the navigation bar menu.
+
+#### Home page
+
+This page will contain the 100 stars that the application is based around. The user can click each of these to account for a rejection.
+
+When hovering on a star, the user can go to a separate [Notes](#notes) page and take notes specific to that company/rejection.
+
+#### Notes
+
+This page is a collection of notes that the user has taken on different companies. The companies are listed by name on this page, and the user is able to click on each company to access the unique company notes.
+
+##### Note
+
+This page enables the user to take notes on a specific company. The user can add the company name and any relevant information (how the interview experience went, etc.).
+
+Each company only gets one note. That is, only one note is attached per rejection star.
+
+#### About
+
+This page explains the function of the application. Besides the back button, the content is completely static.
+
+#### How It Works
+
+This page explains how the application is supposed to be used. Like the about page, the content is completely static.
+
+#### Log In
+
+This app enables each user to save their progress and notes through logging in.
+
+## Technologies Used
+
+Built on [Next.js](https://nextjs.org/) with [TailwindCSS](https://tailwindcss.com/), [Typescript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), and [the MUI component library](https://mui.com/).
+
+## Use and Installation
+
+Build is in progress. Check back on this section later.
+
+## Optimizations
+
+Build is in progress. Check back on this section later.
+
+## Contact
+
+If you have questions, concerns, suggestions, or anything else, feel free to email the developer at ruthreed.dev@gmail.com.
